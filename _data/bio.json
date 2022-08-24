@@ -4,10 +4,10 @@
     "label": "Student",
     "picture": "https://github.com/giorgio-tran.png",
     "email": "ttran2@hawaii.edu",
-    "phone": "808-333-4444",
+    "phone": "",
     "website": "https://giorgio-tran.github.io",
     "summary": "I am a postbaccalaureate student at the University of Hawaii who is looking to pursue a Master's Degree in Computer Science in 2023.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "giorgio-tran", "url": "http://github.com/giorgio-tran" },
       { "network": "linkedin", "username": "Giorgio Tran", "url": "http://linkedin.com/in/giorgio-tran-03a656139/" }
