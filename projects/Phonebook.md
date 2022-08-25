@@ -24,6 +24,6 @@ I gained a lot of experience with full-stack web application through this projec
 <!-- Here is some example code to illustrate Simple Schema use:
 
 {% gist 9defa1fb3f4eb593ba5fa9eacedca960 %} -->
-Link to Project: <a href="https://phonebook-fso2022-gt.herokuapp.com/"> </a>
+Link to Project: <a href="https://phonebook-fso2022-gt.herokuapp.com/"> Phonebook </a>
 
 Source: <a href="https://github.com/giorgio-tran/fullstackopen/tree/main/part3/phonebook">giorgio-tran/fullstackopen/tree/main/part3/phonebook</a>
