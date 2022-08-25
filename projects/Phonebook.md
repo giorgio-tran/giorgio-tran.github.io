@@ -15,8 +15,6 @@ labels:
 summary: "A responsive CRUD phonebook that I developed in FullStackOpen"
 ---
 
-<img class="img-fluid" src="../img/vacay/vacay-home-page.png">
-
 This is a web application that I created through FullStackOpen. The project helped me learn how to design a CRUD application with the modern MERN tech stack.
 
 This phonebook is implemented with [Create React App](https://create-react-app.dev) to seamlessly create a single-page [React](https://reactjs.org) application. In the application, the user can search for a contact, add a contact, remove a contact. If an already existing contact is added, the user will be prompted with an update option. 
@@ -26,5 +24,6 @@ I gained a lot of experience with full-stack web application through this projec
 <!-- Here is some example code to illustrate Simple Schema use:
 
 {% gist 9defa1fb3f4eb593ba5fa9eacedca960 %} -->
-Link to Project: <a href="https://phonebook-fso2022-gt.herokuapp.com/">
+Link to Project: <a href="https://phonebook-fso2022-gt.herokuapp.com/"> </a>
+
 Source: <a href="https://github.com/giorgio-tran/fullstackopen/tree/main/part3/phonebook">giorgio-tran/fullstackopen/tree/main/part3/phonebook</a>
