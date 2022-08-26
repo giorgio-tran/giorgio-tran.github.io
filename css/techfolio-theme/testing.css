@@ -53,11 +53,13 @@ a.btn {
   border: 1px solid var(--aqua); 
   color: var(--aqua);
 }
-
 a.btn:hover {
   color: var(--lightpurple);
 }
 
+pre.highlight {
+  background-color: var(--darkgray);
+}
 /* Simplify the styling of the bottom of Essay cards. */
 .card-footer {
   background-color: var(--darkgray);
