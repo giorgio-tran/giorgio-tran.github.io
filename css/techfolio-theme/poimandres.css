@@ -1,4 +1,6 @@
-/* Default theme. Simple, yet elegant. */
+/* Poimandres theme. Based off of the VSCode theme. 
+Credits to https://github.com/drcmda for the awesome color 
+combination */
 
 /* Use Ubuntu as the default sans serif font. */
 @import url("https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700|Source+Code+Pro:300,400,500,700");
