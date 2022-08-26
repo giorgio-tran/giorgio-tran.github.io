@@ -10,6 +10,7 @@
   --gray: rgb(154, 159, 190);
   --aqua: rgb(93, 228, 198);
   --babyblue: rgb(162, 200, 239);
+  --lightpurple: rgb(123, 71, 127);
   --bs-font-sans-serif: "Ubuntu", sans-serif;
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
@@ -45,6 +46,16 @@ a.nav-link {
 div.card {
   background-color: var(--darkgray);
   box-shadow: 3px 6px 10px var(--darkgray);
+}
+
+/* Read more button  */
+a.btn {
+  border: 1px solid var(--aqua); 
+  color: var(--aqua);
+}
+
+a.btn:hover {
+  color: var(--lightpurple);
 }
 
 /* Simplify the styling of the bottom of Essay cards. */
