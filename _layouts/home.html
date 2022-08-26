@@ -1,6 +1,11 @@
 ---
 layout: default
 ---
-{% include header.html %}
-{{ content }}
-{% include footer.html %}
+<div style="display: flex; flex-direction: column; height:100vh; justify-content: space-between;">
+  <div>
+    {% include header.html %}
+    {{ content }}
+  </div>
+  {% include footer.html %}
+</div>
+
