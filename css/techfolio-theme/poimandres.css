@@ -48,7 +48,7 @@ a span{
   color: var(--aqua);
 }
 a span:hover {
-  color: var(--testing);
+  color: var(--lightgray);
 }
 
 /* Text color of anchors with a navigating link */
