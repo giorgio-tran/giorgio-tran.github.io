@@ -10,7 +10,7 @@ labels:
   - CSS
   - Javascript
   - Github
-summary: "An web version of Etch-A-Sketch built through the Odin Project"
+summary: "A web version of Etch-A-Sketch built through the Odin Project."
 ---
 
 Sketch is one of my initial projects when I first got started with HTML, CSS, and Javascript. This project is an assignment from The Odin Project. It was quite an essential project for my learning because it taught me how to manipulate the DOM. 

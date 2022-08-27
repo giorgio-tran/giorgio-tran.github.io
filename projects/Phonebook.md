@@ -12,7 +12,7 @@ labels:
   - Express
   - Heroku
   - Github
-summary: "A responsive CRUD application that I developed in FullStackOpen"
+summary: "A responsive CRUD application that I developed in FullStackOpen."
 ---
 
 This is a web application that I created through FullStackOpen. The project helped me learn how to design a CRUD application with the modern MERN tech stack.
