@@ -14,6 +14,7 @@ combination */
   --aqua: rgb(93, 228, 198);
   --babyblue: rgb(162, 200, 239);
   --lightpurple: rgb(123, 71, 127);
+  --skyblue: rgb(175, 240, 251);
   --bs-font-sans-serif: "Ubuntu", sans-serif;
   --bs-link-color: var(--bs-blue);
   --tf-pill-bg: var(--bs-gray);
@@ -28,7 +29,7 @@ body {
 }
 
 h1,h2,h3,h4,h5 {
-  color: var(--babyblue);
+  color: var(--skyblue);
 }
 
 /* Format social media icons */
