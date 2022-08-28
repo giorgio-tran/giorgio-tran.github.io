@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/sketch/sketchimg.png
+image: img/sketch/sketch-square.png
 title: "Sketch"
 date: 
 published: true

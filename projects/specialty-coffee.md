@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/specialty-coffee/specialty-coffee.png
+image: img/specialty-coffee/specialty-coffee-square.png
 title: "Specialty Coffee Oahu"
 date: 
 published: true

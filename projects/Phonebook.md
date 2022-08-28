@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/phonebook/phonebook.png
+image: img/phonebook/phonebook-square.png
 title: "Phonebook"
 date: 2022
 published: true
