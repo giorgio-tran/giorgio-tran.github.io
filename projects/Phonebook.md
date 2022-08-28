@@ -21,8 +21,7 @@ This phonebook is implemented with [Create React App](https://create-react-app.d
 
 I gained a lot of experience with developing a full-stack web application through this project. The frontend uses React and CSS, with [axios](https://axios-http.com) as the HTTP client. The backend uses [Express](https://expressjs.com), a Node framework, and [MongoDB Atlas](https://www.mongodb.com/atlas/database) for database storage. Lastly, the application was deployed via git to [Heroku](https://www.heroku.com/). This experience taught me important concepts, such as [Cross-Origin Resource Sharing](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (CORS), promises, and debugging with both a frontend and a backend.
 
-<!-- Here is some example code to illustrate Simple Schema use:
+<img src="/img/phonebook/phonebook-browser.png" alt="phonebook" class="container-fluid"/>
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %} -->
-<a href="https://phonebook-fso2022-gt.herokuapp.com/"> Link to the Project </a> <br>
-Source: <a href="https://github.com/giorgio-tran/fullstackopen/tree/main/part3/phonebook">giorgio-tran/fullstackopen/tree/main/part3/phonebook</a>
+Link to the Project: <a href="https://phonebook-fso2022-gt.herokuapp.com/"> &nbsp;https://phonebook-fso2022-gt.herokuapp.com/</a> <br>
+Source: <a href="https://github.com/giorgio-tran/fullstackopen/tree/main/part3/phonebook">&nbsp;giorgio-tran/fullstackopen/tree/main/part3/phonebook</a>
