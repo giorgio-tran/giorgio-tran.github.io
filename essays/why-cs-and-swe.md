@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Why Computer Science and Software Engineering?"
+title: "(premed) => software engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-30
 published: true
