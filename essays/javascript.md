@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Thoughts on Javascript and Athletic Software Engineering as a Computer Science Student"
+title: "Javascript and Athletic Software Engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2022-08-30
 published: true
