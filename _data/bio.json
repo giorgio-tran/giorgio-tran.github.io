@@ -29,7 +29,7 @@
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Git/GitHub", "VSCode", "MongoDB Atlas"]
+      "keywords": [ "MacOS", "Git/GitHub", "VSCode", "MongoDB Atlas", "Node"]
     }
   ],
   "education": [
@@ -65,6 +65,28 @@
         "Conducted gene therapy experiments on a hemophilic mouse model with a novel ultrasound-based approach",
         "Evaluated the efficiency of experiments through analytical laboratory techniques and interpreted data",
         "Presented findings at the Spring 2021 Undergraduate Showcase"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Computer Lab Assistant",
+      "startDate": "2019",
+      "endDate": "2019",
+      "highlights": [
+        "Updated and maintained computers",
+        "Solved technical computer issues that patrons had",
+        "Ensured that patrons adhered to computer lab policies"
+      ]
+    },
+    {
+      "company": "Runners Route",
+      "position": "Retail Salesperson",
+      "startDate": "2017",
+      "endDate": "2018",
+      "highlights": [
+        "Communicated effectively with customers in order to determine their needs",
+        "Worked with a team to best serve customers",
+        "Performed inventory management and kept the sales floor well maintained"
       ]
     }
   ],
