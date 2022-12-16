@@ -4,7 +4,7 @@ type: project
 image: img/specialty-coffee/specialty-coffee-square.png
 title: "Specialty Coffee Oahu"
 date: 2022
-order: 1
+order: 4
 published: true
 labels:
   - React
