@@ -4,7 +4,7 @@ type: project
 image: img/doelt/HACC.png
 title: "Department of Education Legislative Tracker (DOELT)"
 date: 2022
-order: 1
+order: 2
 published: true
 labels:
 - React

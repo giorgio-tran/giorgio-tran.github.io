@@ -10,10 +10,6 @@ labels:
 - Bootstrap
 - Learning
 ---
-<div class="container-fluid d-flex flex-column align-items-center bg-dark">
-    <iframe src="https://me.me/embed/i/9043a6c622804ec3ae4e2d87665e0f72" width="500" height="703" frameBorder="0" class="meme-embed" style="max-width:100%;margin:0 auto;" allowFullScreen></iframe><p>via <a href="https://me.me">MEME</a></p>
-</div>
-<br>
 When students first start web development, they typically go through a curriculum that uses HTML, CSS, and Javascript to set their foundation. Raw HTML, CSS, and Javascript are useful for understanding the basics of DOM manipulation, however it can be quite tedious to write reusable code with those three alone. That’s where frameworks come in to help.
 
 Working with HTML and CSS alone in particular can be a daunting task. Mobile responsiveness and styling elements are tricky to get right, and it can require a lot of lines of code. With UI frameworks such as [Bootstrap](https://getbootstrap.com/) or [Tailwind](https://tailwindcss.com/), a responsive web application can be up and running a lot quicker. On top of that, because they reduce the time that it takes to style or add responsiveness, more focus can be put on the complex logic behind the applications.

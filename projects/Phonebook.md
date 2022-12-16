@@ -4,7 +4,7 @@ type: project
 image: img/phonebook/phonebook-square.png
 title: "Phonebook"
 date: 2022
-order: 2
+order: 3
 published: true
 labels:
   - React
