@@ -10,7 +10,8 @@ labels:
 - Software Engineering
 - IDPM
 ---
-![](../img/the-beginning-of-a-new-endeavor/iceberg.png)
+<img alt="iceberg" class="container-fluid" src="../img/the-beginning-of-a-new-endeavor/iceberg.png">
+
 At the start of the semester, I came in thinking that I knew what software engineering was about, which was building web applications. That was a very naive mindset, and Software Engineering I at the University of Hawaii at Manoa really showed that what I knew was barely the tip of the iceberg. Building applications is only a minor part of the equation. There are other aspects that are equally important to being a great software engineer, and they range from agile project management to design patterns.
 
 ## Agile Project Management
