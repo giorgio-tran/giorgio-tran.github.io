@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Quickly Build Web Applications with UI Frameworks | Giorgio Tran | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/giorgio-tran.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Giorgio Tran | Professional Portfolio">
+    <meta property="og:url" content="https://giorgio-tran.github.io/essays/quickly-build-web-apps-with-ui-frameworks.html">
+    <meta property="og:title" content="Quickly Build Web Applications with UI Frameworks | Giorgio Tran | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/giorgio-tran.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/poimandres.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Quickly Build Web Applications with UI Frameworks | Giorgio Tran | Professional Portfolio</title>
+  </head>
+  <body>
+  <div style="display: flex; flex-direction: column; height:100vh; justify-content: space-between; background-color: var(--mediumdarkgray); overflow: auto;">
+  <div>
+    <header style="background-color: var(--darkgray);"class="navbar navbar-expand">
+  <div class="container-fluid">
+    <a style="color: var(--gray);" class="navbar-brand" href="/">Giorgio Tran</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0 navbar-dark">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <div class="container py-4">
+  <h1 class="display-4">Quickly Build Web Applications with UI Frameworks</h1>
+  <span class="date">08 Oct 2022</span>
+  <hr>
+  <p>When students first start web development, they typically go through a curriculum that uses HTML, CSS, and Javascript to set their foundation. Raw HTML, CSS, and Javascript are useful for understanding the basics of DOM manipulation, however it can be quite tedious to write reusable code with those three alone. That’s where frameworks come in to help.</p>
+
+<p>Working with HTML and CSS alone in particular can be a daunting task. Mobile responsiveness and styling elements are tricky to get right, and it can require a lot of lines of code. With UI frameworks such as <a href="https://getbootstrap.com/">Bootstrap</a> or <a href="https://tailwindcss.com/">Tailwind</a>, a responsive web application can be up and running a lot quicker. On top of that, because they reduce the time that it takes to style or add responsiveness, more focus can be put on the complex logic behind the applications.</p>
+
+<p>Here’s an example of Bootstrap vs. CSS:</p>
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="XWqPYKd" data-user="giorgio808" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/giorgio808/pen/XWqPYKd">
+  Bootstrap Example</a> by Giorgio (<a href="https://codepen.io/giorgio808">@giorgio808</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<div>Bootstrap</div>
+<p><br /></p>
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="QWrVxmW" data-user="giorgio808" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/giorgio808/pen/QWrVxmW">
+  CSS example</a> by Giorgio (<a href="https://codepen.io/giorgio808">@giorgio808</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async="" src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<div>Pure CSS and HTML</div>
+<p><br /></p>
+
+<h3 id="what-ui-framework-should-you-choose">What UI framework should you choose?</h3>
+
+<p>Well that depends on the needs of the project. With a project that is heavy on the backend and logic, maybe using Bootstrap would be nice for the frontend side of it. Bootstrap has pre-made components that can be used to style HTML elements. A few of my favorites are the toggler collapsible navbar and the carousel. These two would probably require quite a few lines of CSS for implementation. However, the drawback of using Bootstrap is that projects can look similar to other sites that use Bootstrap. This could make the site look less original.</p>
+
+<div class="w-100 d-flex justify-content-center">
+    <img height="200px" src="../img/quickly-build-web-apps-with-ui-frameworks/tailwind.png" alt="tailwind" />
+</div>
+
+<p>The other alternative to make a more customized site is Tailwind. This framework is really good especially when combined with React, since components can be quickly created. It is similar to Bootstrap in the sense that styling can be done via the class attribute in HTML (or className attribute in JSX). The con of Tailwind is that it makes everything look a bit more messy since everything is inline. Ultimately though, both Bootstrap and Tailwind are awesome frameworks that can be used to quickly develop a site’s UI compared to plain HTML and CSS.</p>
+
+</div>
+
+  </div>
+  <footer style="background-color: var(--darkgray)" class="navbar navbar-expand">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a style="color: var(--aqua);" class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

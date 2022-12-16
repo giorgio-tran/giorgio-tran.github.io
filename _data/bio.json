@@ -1,0 +1,98 @@
+{
+  "basics": {
+    "name": "Giorgio Tran",
+    "label": "Student",
+    "picture": "https://github.com/giorgio-tran.png",
+    "email": "ttran2@hawaii.edu",
+    "phone": "",
+    "website": "https://giorgio-tran.github.io",
+    "summary": "Incoming Master's in Computer Science Student @ UHM",
+    "location": { "address": "", "postalCode": "", "city": "Honolulu", "countryCode": "", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "giorgio-tran", "url": "http://github.com/giorgio-tran" },
+      { "network": "linkedin", "username": "Giorgio Tran", "url": "http://linkedin.com/in/giorgio-tran-03a656139/" }
+    ]
+  },
+  "interests": [
+    { "name": "Software Engineering" },
+    { "name": "Fullstack Development" },
+    { "name": "Interactive Media" }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "keywords": [ "Java", "Javascript", "Python", "HTML", "CSS" ]
+    },
+    {
+      "name": "Libraries and Frameworks",
+      "keywords": [ "Express", "React", "Tailwind"]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Git/GitHub", "VSCode", "MongoDB Atlas", "Node"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Manoa, HI",
+      "area": "Kinesiology and Rehabilitation Science",
+      "studyType": "B.S.",
+      "startDate": "2017-8-21",
+      "endDate": "2021-5-13",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Hawaii Starlanes",
+      "position": "Administrative Clerk",
+      "website": "",
+      "startDate": "2022",
+      "endDate": "Present",
+      "highlights": [
+        "Update Excel spreadsheets and Microsoft Access databases with customers data",
+        "Effectively provide customer service and manage inbound phone calls"
+      ]
+    },
+    {
+      "company": "John Andrew Burns School of Medicine",
+      "position": "Undergraduate Researcher",
+      "website": "",
+      "startDate": "2019",
+      "endDate": "2021",
+      "highlights": [
+        "Conducted gene therapy experiments on a hemophilic mouse model with a novel ultrasound-based approach",
+        "Evaluated the efficiency of experiments through analytical laboratory techniques and interpreted data",
+        "Presented findings at the Spring 2021 Undergraduate Showcase"
+      ]
+    },
+    {
+      "company": "University of Hawaii at Manoa",
+      "position": "Computer Lab Assistant",
+      "startDate": "2019",
+      "endDate": "2019",
+      "highlights": [
+        "Updated and maintained computers",
+        "Solved technical computer issues that patrons had",
+        "Ensured that patrons adhered to computer lab policies"
+      ]
+    },
+    {
+      "company": "Runners Route",
+      "position": "Retail Salesperson",
+      "startDate": "2017",
+      "endDate": "2018",
+      "highlights": [
+        "Communicated effectively with customers in order to determine their needs",
+        "Worked with a team to best serve customers",
+        "Performed inventory management and kept the sales floor well maintained"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

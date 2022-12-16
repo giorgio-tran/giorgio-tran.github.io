@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Specialty Coffee Oahu | Giorgio Tran | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/giorgio-tran.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Giorgio Tran | Professional Portfolio">
+    <meta property="og:url" content="https://giorgio-tran.github.io/projects/specialty-coffee.html">
+    <meta property="og:title" content="Specialty Coffee Oahu | Giorgio Tran | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/giorgio-tran.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/poimandres.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Specialty Coffee Oahu | Giorgio Tran | Professional Portfolio</title>
+  </head>
+  <body>
+  <div style="display: flex; flex-direction: column; height:100vh; justify-content: space-between; background-color: var(--mediumdarkgray); overflow: auto;">
+  <div>
+    <header style="background-color: var(--darkgray);"class="navbar navbar-expand">
+  <div class="container-fluid">
+    <a style="color: var(--gray);" class="navbar-brand" href="/">Giorgio Tran</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0 navbar-dark">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <div class="container py-4">
+  <h1 class="display-4">Specialty Coffee Oahu</h1>
+ <p>As a coffee lover, I wanted to create an application that would allow me to document the coffee shops that I visited in Oahu. With my previous Phonebook project, I gained experience on full-stack development. Specialty Coffee Oahu builds off from that knowledge and explores other elements of web development.</p>
+
+<p>One of the main features of this project is that it uses the <a class="md" href="https://developers.google.com/maps/documentation/embed/get-started" target="_blank" rel="noopener noreferrer">Maps Embed API</a> from the <a class="md" href="https://developers.google.com/maps/apis-by-platform" target="_blank" rel="noopener noreferrer">Google Maps Platform</a>. This API is used to show the coffee shop’s location on the map. The setup process on Google’s end was quite straightforward since the platform had good documentation. However, the tricky part was getting the API key to be accessed as an environment variable. With Create React App in particular, the environment variable must be named <a class="md" href="https://create-react-app.dev/docs/adding-custom-environment-variables/" target="_blank" rel="noopener noreferrer">REACT_APP_NAMEOFVARIABLE</a>. The API URL can take in the name and location of the coffee shop. Through an HTTP request, it retrieves the specified place and shows it on a map.</p>
+
+<p>My CoffeeShopInfo component that uses the Google Maps Embed API:
+<script src="https://gist.github.com/giorgio-tran/2f4ef634abc14c5dc99736bc974ea717.js"></script></p>
+
+<p>For styling, I decided to use Tailwind instead of pure CSS. Since React is component based, inline styling seems to be appropriate. I chose this framework over Bootstrap because it is more flexible when it comes to creating custom designs.</p>
+
+<p>This project is still in the works and it has not been deployed yet. I am thinking of deploying it either via Vercel or Netlify since Heroku will no longer be free in November. That aside, feel free to check out the source code down below!</p>
+
+<p><img src="/img/specialty-coffee/specialty-coffee-browser.png" alt="specialty-coffee" class="container-fluid" /></p>
+
+<p>Source: <a class="md" href="https://github.com/giorgio-tran/specialty-coffee-oahu/" target="_blank" rel="noopener noreferrer"> giorgio-tran/specialty-coffee-oahu</a></p>
+
+</div>
+
+  </div>
+  <footer style="background-color: var(--darkgray)" class="navbar navbar-expand">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a style="color: var(--aqua);" class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
