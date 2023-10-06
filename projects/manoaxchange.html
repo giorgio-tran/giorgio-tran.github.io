@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="ManoaXchange | Giorgio Tran | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/giorgio-tran.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Giorgio Tran | Professional Portfolio">
+    <meta property="og:url" content="https://giorgio-tran.github.io/projects/manoaxchange.html">
+    <meta property="og:title" content="ManoaXchange | Giorgio Tran | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/giorgio-tran.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/poimandres.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>ManoaXchange | Giorgio Tran | Professional Portfolio</title>
+  </head>
+  <body>
+  <div style="display: flex; flex-direction: column; height:100vh; justify-content: space-between; background-color: var(--mediumdarkgray); overflow: auto;">
+  <div>
+    <header style="background-color: var(--darkgray);"class="navbar navbar-expand">
+  <div class="container-fluid">
+    <a style="color: var(--gray);" class="navbar-brand" href="/">Giorgio Tran</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0 navbar-dark">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <div class="container py-4">
+  <h1 class="display-4">ManoaXchange</h1>
+ <p>ManoaXchange is a web application prototype designed to help UH Manoa students, faculty, and alumni sell and buy items. This application would help the UH community repurpose and reuse goods. I led this project by designing the architecture of the application, designing the UI/UX, and lastly using the Gmail API and Cloudinary API. I created API endpoints via Express to establish communication between the client and the other two APIs. A highlight from this project was the implementation of image uploading. Upon uploading an image, the user is able to see a preview of the image. Once submitted, the image’s data URL is uploaded to Cloudinary by being sent as a parameter through the API endpoint. Then, the response returns Cloudinary’s URL of the image, which is then stored in MongoDB and used as the image source. Overall, this application taught me a lot about using APIs and creating a mobile responsive user interface.</p>
+
+<p><img alt="ramen" class="container-fluid" src="../img/manoaxchange/imageupload.png" />
+Image uploading with preview.</p>
+
+<p><img alt="cloudinary link" class="container-fluid" src="../img/manoaxchange/cloudinary.png" />
+Upon upload, the image is posted to Cloudinary, and the src of the image is a link obtained from Cloudinary’s response.</p>
+
+</div>
+
+  </div>
+  <footer style="background-color: var(--darkgray)" class="navbar navbar-expand">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a style="color: var(--aqua);" class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+</div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
